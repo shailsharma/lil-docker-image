@@ -7,6 +7,7 @@ RUN npm install -g firebase-tools bower gulp webpack webpack-dev-server
 
 
 WORKDIR /prj
+RUN ls
 ADD . /prj
 RUN ls
 
