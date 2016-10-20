@@ -5,8 +5,8 @@ RUN apk --update add git ncdu python make g++
 RUN ls
 RUN npm install -g firebase-tools 
 RUN ls
-ADD package.json . 
-RUN ls
+##ADD package.json . 
+##RUN ls
 
-RUN npm install
+##RUN npm install
 ##RUN bower install --allow-root
